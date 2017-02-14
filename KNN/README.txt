@@ -1,5 +1,8 @@
 Algorithm: K Nearest Neighbors
 Environment: Matlab 2015b
+
+This is a facial attractiveness classification task: given a picture of a face, you need to predict whether the average rating of the face is hot or not. So, each row corresponds to a data point (a picture). Each column is a feature, a pixel. The value of the feature is the value of the pixel in a grayscale image. cosineDistance.m implements the cosine distance, a simple distance function. It takes two feature vectors x and y, and computes a nengative, symmetric distance between x and y.
+
 cosineDistance.m
 This file is used for compute distance between data. In the formula, I use 1-cosineDistance, therefore, the nearest neighbors are the smallest value of distance.
 
